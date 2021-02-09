@@ -12901,10 +12901,9 @@ netlify-cli@3.5.0:
     wrap-ansi "^6.0.0"
     write-file-atomic "^3.0.0"
 
-netlify-plugin-cypress@1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-cypress/-/netlify-plugin-cypress-1.9.1.tgz#9b622a7211635b6560a3a2f5d0462e7e17276dec"
-  integrity sha512-gwv6nkm/pxKERXtAj4uw4vUTZ1pm0qdl8nJfWa0ZlbzTb6t0KDFpFGO2UM5cPmHeG3WjfwsP2EYDe5P5AsRq+A==
+"netlify-plugin-cypress@https://github.com/cypress-io/netlify-plugin-cypress#improve-ping":
+  version "0.0.0-development"
+  resolved "https://github.com/cypress-io/netlify-plugin-cypress#f4e86262ff79d2bafc1250e5c47e93a8abf93624"
   dependencies:
     debug "4.1.1"
     got "10.7.0"

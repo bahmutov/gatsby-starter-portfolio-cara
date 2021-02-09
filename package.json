@@ -27,6 +27,9 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2"
+    "cross-env": "^7.0.2",
+    "cypress": "6.4.0",
+    "netlify-cli": "3.5.0",
+    "netlify-plugin-cypress": "1.9.1"
   }
 }

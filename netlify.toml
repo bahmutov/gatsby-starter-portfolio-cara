@@ -1,0 +1,20 @@
+[build]
+command = "npm run build"
+publish = "public"
+
+[build.environment]
+# cache Cypress binary in local "node_modules" folder
+# so Netlify caches it
+CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+# set TERM variable for terminal output
+TERM = "xterm"
+# do not show progress messages when unzipping Cypress
+CI = "1"
+
+[[plugins]]
+# local Cypress plugin will test our site after it is built
+  package = "netlify-plugin-cypress"
+  [plugins.inputs.preBuild]
+    start = 'yarn start'
+    wait-on = 'http://localhost:8000/'
+    wait-on-timeout = '45' # seconds

@@ -30,6 +30,6 @@
     "cross-env": "^7.0.2",
     "cypress": "6.4.0",
     "netlify-cli": "3.5.0",
-    "netlify-plugin-cypress": "https://github.com/cypress-io/netlify-plugin-cypress#improve-ping"
+    "netlify-plugin-cypress": "1.9.2"
   }
 }

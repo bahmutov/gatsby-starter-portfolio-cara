@@ -14,7 +14,14 @@ CI = "1"
 [[plugins]]
 # local Cypress plugin will test our site after it is built
   package = "netlify-plugin-cypress"
+  # skip tests against built static site
+  [plugins.inputs]
+    skip = true
+  # but run the tests against the dev version
   [plugins.inputs.preBuild]
     start = 'yarn start'
     wait-on = 'http://localhost:8000/'
     wait-on-timeout = '75' # seconds
+  # and run the tests against the deployed preview URL
+  [plugins.inputs.onSuccess]
+    enable = true

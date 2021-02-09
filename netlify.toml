@@ -17,4 +17,4 @@ CI = "1"
   [plugins.inputs.preBuild]
     start = 'yarn start'
     wait-on = 'http://localhost:8000/'
-    wait-on-timeout = '45' # seconds
+    wait-on-timeout = '75' # seconds

@@ -5710,7 +5710,7 @@ common-path-prefix@^2.0.0:
   resolved "https://registry.yarnpkg.com/common-path-prefix/-/common-path-prefix-2.0.0.tgz#25b0265f318bf093a6ec630813aac97b29dea230"
   integrity sha512-Lb9qbwwyQdRDmyib0qur7BC9/GHIbviTaQebayFsGC/n77AwFhZINCcJkQx2qVv9LJsA8F5ex65F2qrOfWGUyw==
 
-common-tags@^1.8.0:
+common-tags@1.8.0, common-tags@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
   integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
@@ -12901,15 +12901,17 @@ netlify-cli@3.5.0:
     wrap-ansi "^6.0.0"
     write-file-atomic "^3.0.0"
 
-netlify-plugin-cypress@1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-cypress/-/netlify-plugin-cypress-1.9.2.tgz#0e3341df5e9c2472a34141a7b0585685d3ec8a11"
-  integrity sha512-QuF7R0YuARmMS5bgVo89oseV7TxC3U3KZr+Jw+xN9AhKrzNnWHw1f253IbgrIxbO4bP1LYIt0Xy6hRQXnBXXyA==
+netlify-plugin-cypress@2.0.0-prepare-v2.2:
+  version "2.0.0-prepare-v2.2"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-cypress/-/netlify-plugin-cypress-2.0.0-prepare-v2.2.tgz#f24b404644c07fa59b871bfd3635aa50ad6d771a"
+  integrity sha512-2bMS8DpKKm4B1BH4IhZc4bgjGFRNll/4MDylw/Z3kaaAG5LZeLZIRVeZodFunypArOw6JgwSniMj1wcWS7qPJg==
   dependencies:
+    common-tags "1.8.0"
     debug "4.1.1"
     got "10.7.0"
     local-web-server "^4.2.1"
     puppeteer "^7.0.1"
+    ramda "0.27.1"
 
 netlify-plugin-deploy-preview-commenting@^0.0.1-alpha.15:
   version "0.0.1-alpha.16"
@@ -14843,6 +14845,11 @@ querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
+
+ramda@0.27.1:
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
+  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
 
 ramda@~0.26.1:
   version "0.26.1"

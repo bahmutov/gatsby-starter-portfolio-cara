@@ -12901,10 +12901,10 @@ netlify-cli@3.5.0:
     wrap-ansi "^6.0.0"
     write-file-atomic "^3.0.0"
 
-netlify-plugin-cypress@2.0.0-prepare-v2.2:
-  version "2.0.0-prepare-v2.2"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-cypress/-/netlify-plugin-cypress-2.0.0-prepare-v2.2.tgz#f24b404644c07fa59b871bfd3635aa50ad6d771a"
-  integrity sha512-2bMS8DpKKm4B1BH4IhZc4bgjGFRNll/4MDylw/Z3kaaAG5LZeLZIRVeZodFunypArOw6JgwSniMj1wcWS7qPJg==
+netlify-plugin-cypress@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-cypress/-/netlify-plugin-cypress-2.0.0.tgz#a45f0f9272b62669bed823c9e94fab541bda088b"
+  integrity sha512-QLrvGfY9HLgAgUYqNp6a4iTCLKnfrpCAUYToeI85TIRsDx2j51ukv6kHEIO6K9lvfOL7eKme4tLMGw+BS/UmoA==
   dependencies:
     common-tags "1.8.0"
     debug "4.1.1"
